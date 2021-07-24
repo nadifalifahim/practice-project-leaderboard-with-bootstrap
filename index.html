@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard with Bootstrap</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon/medal.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6ffd369220.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body style="background: #f3f1ff; font-family: 'Poppins', sans-serif">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary pt-3 pb-3">
+      <div class="container">
+        <a class="navbar-brand fs-3" href="#">
+          <i class="far fa-lightbulb me-2"></i>
+          Idea
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="
+              navbar-nav
+              ms-lg-auto ms-auto
+              me-lg-0 me-auto
+              mb-2 mb-lg-0
+              d-flex
+              justify-content-between
+              align-items-center
+              w-25
+            "
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Works</a>
+            </li>
+            <li class="nav-item">
+              <img src="./images/navbar/profile-image-1.png" alt="..." />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Top Section - Top Players and Top Blogs -->
+      <section
+        class="
+          container
+          bg-white
+          mt-lg-5 mt-4
+          mb-5
+          p-lg-5 p-4
+          rounded-3
+          shadow-sm
+        "
+      >
+        <h2 class="text-primary">Top Players</h2>
+        <div class="row row-cols-2 row-cols-lg-3">
+          <div class="col d-flex align-items-center fw-bolder mt-lg-5 mt-4">
+            <img src="./images/top-players/top-players-1.png" alt="" />
+            <span class="ms-2 fs-4">John Smith</span>
+          </div>
+          <div class="col d-flex align-items-center fw-bolder mt-lg-5 mt-4">
+            <img src="./images/top-players/top-players-2.png" alt="" />
+            <span class="ms-2 fs-4">John Smith</span>
+          </div>
+          <div class="col d-flex align-items-center fw-bolder mt-lg-5 mt-4">
+            <img src="./images/top-players/top-players-3.png" alt="" />
+            <span class="ms-2 fs-4">John Smith</span>
+          </div>
+          <div class="col d-flex align-items-center fw-bolder mt-lg-5 mt-4">
+            <img src="./images/top-players/top-players-4.png" alt="" />
+            <span class="ms-2 fs-4">John Smith</span>
+          </div>
+          <div class="col d-flex align-items-center fw-bolder mt-lg-5 mt-4">
+            <img src="./images/top-players/top-players-5.png" alt="" />
+            <span class="ms-2 fs-4">John Smith</span>
+          </div>
+          <div class="col d-flex align-items-center fw-bolder mt-lg-5 mt-4">
+            <img src="./images/top-players/top-players-6.png" alt="" />
+            <span class="ms-2 fs-4">John Smith</span>
+          </div>
+        </div>
+        <hr class="mt-5 mb-3" />
+        <h2 class="text-primary mt-5 mb-3">Top Blogs</h2>
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col d-flex mt-4 pe-5">
+            <img
+              src="./images/blog-images/blog-image-1.png"
+              class="rounded-3"
+              alt=""
+            />
+            <div class="ms-3">
+              <h3 class="fw-bolder fs-4 lh-base">
+                13 of My Favorite UI/UX Goodies
+              </h3>
+              <p>
+                By
+                <a href="" class="text-decoration-none text-primary fw-bolder">
+                  Danny Saplo
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex mt-4 pe-5">
+            <img
+              src="./images/blog-images/blog-image-2.png"
+              class="rounded-3"
+              alt=""
+            />
+            <div class="ms-3">
+              <h3 class="fw-bolder fs-4 lh-base">
+                13 of My Favorite UI/UX Goodies
+              </h3>
+              <p>
+                By
+                <a href="" class="text-decoration-none text-primary fw-bolder">
+                  Danny Saplo
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex mt-4 pe-5">
+            <img
+              src="./images/blog-images/blog-image-3.png"
+              class="rounded-3"
+              alt=""
+            />
+            <div class="ms-3">
+              <h3 class="fw-bolder fs-4 lh-base">
+                13 of My Favorite UI/UX Goodies
+              </h3>
+              <p>
+                By
+                <a href="" class="text-decoration-none text-primary fw-bolder">
+                  Danny Saplo
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex mt-4 pe-5">
+            <img
+              src="./images/blog-images/blog-image-4.png"
+              class="rounded-3"
+              alt=""
+            />
+            <div class="ms-3">
+              <h3 class="fw-bolder fs-4 lh-base">
+                13 of My Favorite UI/UX Goodies
+              </h3>
+              <p>
+                By
+                <a href="" class="text-decoration-none text-primary fw-bolder">
+                  Danny Saplo
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Bottom Section - Latest Courses -->
+      <section
+        class="
+          container
+          bg-white
+          mt-lg-5 mt-4
+          mb-5
+          p-lg-5 p-4
+          rounded-3
+          shadow-sm
+        "
+      >
+        <h2 class="text-primary mt-2 mb-3">Latest Courses</h2>
+        <div class="row row-cols-lg-3 row-cols-1 gx-4">
+          <div
+            class="
+              col
+              d-flex
+              flex-lg-column
+              align-items-start
+              rounded-2
+              pt-3
+              mt-3
+            "
+          >
+            <img
+              src="./images/course-images/course-image-1.png"
+              class="rounded-3 img-fluid"
+              alt=""
+            />
+            <div class="ms-lg-0 ms-3">
+              <h3 class="mt-lg-3">React - The Complete Guide 2020</h3>
+              <p class="text-danger">Reed Krakoff.</p>
+              <div class="p-0 m-0 d-flex align-items-center">
+                <div>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-black-50"></i>
+                  <span class="text-black-50 fw-bold">4.5</span>
+                </div>
+                <div
+                  style="background-color: #ffe4e8"
+                  class="
+                    pt-2
+                    pb-2
+                    p-3
+                    d-flex
+                    align-items-center
+                    rounded-pill
+                    ms-lg-5
+                  "
+                >
+                  <i class="far fa-clock text-danger fs-4"></i>
+                  <span class="text-danger fw-bolder ms-2">1:30 hr</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              col
+              d-flex
+              flex-lg-column
+              align-items-start
+              rounded-2
+              pt-3
+              mt-3
+            "
+          >
+            <img
+              src="./images/course-images/course-image-2.png"
+              class="rounded-3 img-fluid"
+              alt=""
+            />
+            <div class="ms-lg-0 ms-3">
+              <h3 class="mt-lg-3">React - The Complete Guide 2020</h3>
+              <p class="text-danger">Reed Krakoff.</p>
+              <div class="p-0 m-0 d-flex align-items-center">
+                <div>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-black-50"></i>
+                  <span class="text-black-50 fw-bold">4.5</span>
+                </div>
+                <div
+                  style="background-color: #ffe4e8"
+                  class="
+                    pt-2
+                    pb-2
+                    p-3
+                    d-flex
+                    align-items-center
+                    rounded-pill
+                    ms-lg-5
+                  "
+                >
+                  <i class="far fa-clock text-danger fs-4"></i>
+                  <span class="text-danger fw-bolder ms-2">1:30 hr</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              col
+              d-flex
+              flex-lg-column
+              align-items-start
+              rounded-2
+              pt-3
+              mt-3
+            "
+          >
+            <img
+              src="./images/course-images/course-image-3.png"
+              class="rounded-3 img-fluid"
+              alt=""
+            />
+            <div class="ms-lg-0 ms-3">
+              <h3 class="mt-lg-3">React - The Complete Guide 2020</h3>
+              <p class="text-danger">Reed Krakoff.</p>
+              <div class="p-0 m-0 d-flex align-items-center">
+                <div>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-black-50"></i>
+                  <span class="text-black-50 fw-bold">4.5</span>
+                </div>
+                <div
+                  style="background-color: #ffe4e8"
+                  class="
+                    pt-2
+                    pb-2
+                    p-3
+                    d-flex
+                    align-items-center
+                    rounded-pill
+                    ms-lg-5
+                  "
+                >
+                  <i class="far fa-clock text-danger fs-4"></i>
+                  <span class="text-danger fw-bolder ms-2">1:30 hr</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
